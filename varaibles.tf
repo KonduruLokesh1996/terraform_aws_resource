@@ -1,8 +1,9 @@
 #optional 
 variable "instance_type" {
-    type        = t3.micro
-  
+  type    = string
+  default = "t3.micro"
 }
+
 
 variable sg_ids {
     type        = list
